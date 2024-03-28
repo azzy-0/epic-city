@@ -34,5 +34,10 @@ html{
     margin: auto;
     background-color: #b78e59;
     text-align: center;
-    
+}
+.worker{
+    position: absolute;
+    margin-left: 149px;
+    margin-top: 3px;
+    transform: rotate(-3deg);
 }
