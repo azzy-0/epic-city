@@ -195,6 +195,22 @@ h2{
 h4{
     font-family: rainyhearts;
 }
+.egg{
+    position: inherit;
+    margin-left: 45px
+    
+}
+.eggdiv{
+    width: 120px;
+    height: 50px;
+    margin-left: 1000px;
+    margin-top: -160px;
+    align-items: center;
+}
+.eggdiv>p{
+  margin: 0px;  
+}
+
 .bounce{
     font-family: rainyhearts;
     position: absolute;
