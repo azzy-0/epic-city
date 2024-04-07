@@ -1,20 +1,29 @@
-body {
-    width: 800px;
-    height: 2000px;
+
+html{
+ background-image: url(images/skymc3b.jpg);
+    background-size: cover;
+}
+
+@font-face{
+    font-family: 'rainyhearts';
+    src: url(rainyhearts.ttf)
+}
+
+.main {
+    width: 1000px;
+    height: 700px;
     display: block;
     position: relative;
-    margin-left: auto;
+    margin-left: 160px; /* might change this and right margin back to auto*/
     margin-right: auto;
     margin-bottom: auto;
     margin-bottom: 0px;
     border-width: 4px;
-    border-color: #b78e59;
+    border-color: #f095ad;
     border-style: solid;
-    background-color: #f2b582;
+    background-color: #fdf6f6;
 }
-html{
-    background-color: skyblue;
-}
+
 .footer{
     border-top: 2px;
     border-bottom: 0px;
@@ -28,16 +37,180 @@ html{
     border-color: white;
     border-style: solid;
 }
-.main{
-    width: 700px;
-    height: 400px;
+.abtme{
+    width: 350px;
+    height: 350px;
     margin: auto;
-    background-color: #b78e59;
+    background-color: #fdf6f6;
     text-align: center;
+    border-style: solid;
+    border-color: #f2a2b7;
+    margin-top: 5px;
+    overflow-y: auto;
 }
+.socials{
+    border-style: solid;
+    height: 692px;
+    width: 100px;
+    margin-top: -410px;
+    margin-left: -140px;
+    border-width: 0px;
+}
+
+.chatbox{
+    width: 200px;
+    height: 504px;
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -330px;
+    border-style: solid;
+    border-color: #f2a2b7;
+    text-align: center;
+    
+}
+
 .worker{
     position: absolute;
     margin-left: 149px;
     margin-top: 3px;
     transform: rotate(-3deg);
+}
+
+.blinkies{
+    border-style: solid;
+    height: 700px;
+    width: 150px;
+    position: absolute;
+    left: 1010px;
+    bottom: 0px;
+    border-width: 0px; 
+}
+
+.cathammock{
+   margin-left: 600px;
+}
+.welcome{
+    border-style: solid;
+    height: 70px;
+    width: 730px;
+    margin-left: 300px;
+    margin-bottom: 2px;
+    background-color: #fdf6f6;
+    border-color: #f2a2b7;
+}
+.ytchannel{
+    width: 200px;
+    margin-left: -24px;
+    margin-top: 30px;
+    transform: rotate(-20deg)
+}
+.ytchannel:hover {
+content: url("images/ytchannel.png");
+}
+.disc{
+    width: 220px;
+    margin-left: -20px;
+    margin-top: 30px;
+    transform: rotate(10deg);
+}
+.neocity{
+    width: 200px;
+    margin-left: -16px;
+    transform: rotate(-5deg);
+    margin-top: 25px;
+}
+.luckycat{
+    float: right;
+    width: 100px;
+    object-fit: contain;
+    margin-top: -18px;
+}
+
+.kaomojiwave{
+    width: 70px;
+    margin-top: 0px;
+}
+
+.welcomegif{
+    object-fit: contain;
+    width: 556px;
+    margin-top: 3px;
+}
+h1{
+    margin-top: 0px;
+    font-family: rainyhearts;
+    font-size: 40px;
+}
+.imachild{
+    color: red;
+}
+.dateabtme{
+    display: block;
+}
+p{
+    font-family: rainyhearts;
+    font-size: 15px;
+}
+
+.whatthisisfor{
+    border-style: solid;
+    width: 250px;
+    height: 250px;
+    border-color: black; 
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 40px;
+    font-family: rainyhearts;
+    background-color: #fdf6f6;
+    border-color: #f2a2b7;
+    text-align: center;
+    
+
+}
+
+.kiryu{
+    width: 100px;
+    margin-top: -100px;
+    margin-left: 1200px;
+    position: absolute;
+}
+
+.blog{
+    border-style: solid;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    margin-left: 320px;
+    margin-top: 6px;
+    border-color: #f2a2b7;
+    background-color: #fdf6f6;
+    text-align: center;
+}
+
+h2{
+    margin-top: 0px;
+    font-size: 29px;
+    font-family: rainyhearts;
+}
+h4{
+    font-family: rainyhearts;
+}
+.bounce{
+    font-family: rainyhearts;
+    position: absolute;
+    display: inline;
+    animation-name: mybounce;
+    animation-duration: 7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes mybounce{
+    from{
+       margin-left: 90%;
+    }
+    
+    to{
+      margin-left: 4%;
+    }
 }
