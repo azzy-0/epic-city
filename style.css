@@ -197,6 +197,7 @@ p{
     border-color: #f2a2b7;
     background-color: #fdf6f6;
     text-align: center;
+    overflow-y: auto;
 }
 
 .updates{
