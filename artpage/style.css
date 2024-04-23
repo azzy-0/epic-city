@@ -40,7 +40,7 @@ p{
     margin-left: 80px; 
 }
 
-.frames>p{
+.frames>.title{
     border-style: solid;
     position: absolute;
     margin: 0px;
@@ -52,5 +52,33 @@ p{
 }
 
 .titles{
+    
+}
+
+.bombframe{
+    z-index: 2;
+    position: absolute;
+    margin-left: 500px;
+    width: 290px;
+    margin-top: 120px;
+}
+
+.bombgif{
+    z-index: 1;
+    position: absolute;
+    margin-left: 567px;
+    margin-top: 190px;
+    width: 150px;
+}
+
+.title2{
+    position: absolute;
+    margin-left: 610px;
+    width: 67px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-top: 400px;
     
 }
