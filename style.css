@@ -297,7 +297,14 @@ h4{
     width: 150px;
 }
 
-
+.mythicalland{
+    position: absolute;
+    z-index: 1;
+    margin-left: 1200px;
+    width: 150px;
+    margin-top: -50px;
+    
+}
 
 .bounce{
     font-family: rainyhearts;
