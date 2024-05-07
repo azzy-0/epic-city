@@ -15,7 +15,7 @@ body{
 
 .main {
     width: 1000px;
-    height: 790px;
+    height: 800px;
     display: block;
     position: relative;
     margin-left: 160px; /* might change this and right margin back to auto*/
@@ -304,6 +304,26 @@ h4{
     width: 150px;
     margin-top: -50px;
     
+}
+
+.clefairy{
+    position: absolute;
+    width: 130px;
+    margin-top: -60px;
+    margin-left: 100px;
+    transform: rotate(10deg);
+    
+}
+
+.scroll{
+    border-style: none;
+    width: 200px;
+    margin-left: 0px;
+    margin-top: -60px;
+}
+
+.scroll>img{
+    width: 100px;
 }
 
 .bounce{
