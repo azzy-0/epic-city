@@ -253,10 +253,14 @@ h4{
   margin: 0px;  
 }
 
-.counterorange{
+.counter{
     margin-left: 210px;
     margin-top: -55px;
     width: 100px
+}
+
+.counter>p{
+    margin: 0px;
 }
 
 .counterorange2{
@@ -285,7 +289,7 @@ h4{
     
 }
 
-.footer>p{
+.footer>.lastupd{
     font-size: 16px;
     display: inline;
     margin-left: 20px;
@@ -317,14 +321,36 @@ h4{
 
 .scroll{
     border-style: none;
-    width: 200px;
+    width: 320px;
     margin-left: 0px;
-    margin-top: -60px;
+    margin-top: -30px;
+    height: 65px;
 }
 
 .scroll>img{
-    width: 100px;
+    width: 99px;
+    height: 55px;
+    
 }
+.scroll>img:hover{
+    transform:  scale(1.1);
+}
+.scroll>.nyanstamp{
+    transform: scaleX(-1);
+}
+.dragonstamp{
+    transform: scaleX(-1);
+}
+
+.est{
+    color: #f80e0e;
+    position: absolute;
+    display: inline;
+    margin-left: 740px;
+    margin-top: 0px;
+    
+}
+
 
 .bounce{
     font-family: rainyhearts;
@@ -338,11 +364,11 @@ h4{
 }
 @keyframes mybounce{
     from{
-       margin-left: 699px;
+       margin-left: 618px;
     }
     
     to{
-      margin-left: 5px;
+      margin-left: 4px;
     }
 }
 

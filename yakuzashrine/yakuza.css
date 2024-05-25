@@ -62,3 +62,9 @@ body{
 span{
     display: block;
 }
+
+.dragon{
+    position: absolute;
+    margin-left: 660px;
+    margin-bottom: 20px;
+}
