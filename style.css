@@ -41,10 +41,11 @@ body{
     overflow-y: auto;
 }
 .socials{
+    position: absolute;
     border-style: solid;
     height: 692px;
     width: 100px;
-    margin-top: -410px;
+    margin-top: -210px;
     margin-left: -140px;
     border-width: 0px;
 }
@@ -91,7 +92,7 @@ body{
     border-color: #f2a2b7;
 }
 .ytchannel{
-    width: 200px;
+    width: 160px;
     margin-left: -24px;
     margin-top: 30px;
     transform: rotate(-20deg)
@@ -100,16 +101,19 @@ body{
 content: url("images/ytchannel.png");
 }
 .disc{
-    width: 220px;
+    width: 180px;
     margin-left: -20px;
     margin-top: 30px;
     transform: rotate(10deg);
 }
 .neocity{
-    width: 200px;
+    width: 190px;
     margin-left: -16px;
     transform: rotate(-5deg);
     margin-top: 25px;
+}
+.artpage{
+    width: 140px;
 }
 .luckycat{
     float: right;
@@ -173,7 +177,7 @@ p{
     padding: 8px;
     background-color: azure;
     border: 1px solid midnightblue;
-    margin-left: 30px;
+    margin-left: 750px;
     margin-top: 3px;
 }
 #statuscafe-username {
@@ -320,10 +324,11 @@ h4{
 }
 
 .scroll{
+    position: absolute;
     border-style: none;
     width: 320px;
     margin-left: 0px;
-    margin-top: -30px;
+    margin-top: 240px;
     height: 65px;
 }
 
