@@ -347,6 +347,14 @@ h4{
     transform: scaleX(-1);
 }
 
+.buttons{
+    width: 1000px;
+    margin-left: 170px;
+    height: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .est{
     color: #f80e0e;
     position: absolute;
@@ -355,6 +363,7 @@ h4{
     margin-top: 0px;
     
 }
+
 
 
 .bounce{
