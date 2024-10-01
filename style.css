@@ -6,6 +6,11 @@ html{
 
 body{
     
+/*
+    max-width: 100%;
+    overflow-x: hidden;
+ will put back when i find a way to fit blinkies and socials*/
+
 }
 
 @font-face{
@@ -18,7 +23,7 @@ body{
     height: 800px;
     display: block;
     position: relative;
-    margin-left: 160px; /* might change this and right margin back to auto*/
+    margin-left: 100px; /* might change this and right margin back to auto*/
     margin-right: auto;
     margin-bottom: auto;
     margin-bottom: 0px;
@@ -28,6 +33,43 @@ body{
     background-color: #fdf6f6;
 }
 
+.music{
+    border-style: outset;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 10px;
+    border-color: pink;
+}
+
+.music>.play{
+    margin-top: 70px;
+    margin-left: 55px;
+    appearance: none;
+    border-color: grey;
+    background: #ede4e4;
+    font-family: 'rainy hearts';
+    width: 70px;
+    height: 24px;
+    
+}
+
+.music>.pause{
+    margin-left: 40px;
+    appearance: none;
+    border-color: grey;
+    margin: 2px;
+    background: #ede4e4;
+    font-family: 'rainy hearts';
+    width: 70px;
+    height: 24px;
+    
+}
+
+.clapper{
+    margin-left: 460px;
+}
 
 .abtme{
     width: 350px;
@@ -35,7 +77,7 @@ body{
     margin: auto;
     background-color: #fdf6f6;
     text-align: center;
-    border-style: solid;
+    border-style: outset;
     border-color: #f2a2b7;
     margin-top: 5px;
     overflow-y: auto;
@@ -45,9 +87,13 @@ body{
     border-style: solid;
     height: 692px;
     width: 100px;
-    margin-top: -210px;
-    margin-left: -140px;
+    margin-top: -500px;
+    margin-left: -100px;
     border-width: 0px;
+}
+
+.roblox{
+    width: 120px;
 }
 
 .chatbox{
@@ -55,11 +101,56 @@ body{
     height: 504px;
     position: absolute;
     margin-left: 750px;
-    margin-top: -330px;
-    border-style: solid;
+    margin-top: -200px;
+    border-style: outset;
     border-color: #f2a2b7;
     text-align: center;
     
+}
+
+.map{
+    border-style: outset;
+    width: 240px;
+    height: 140px;
+    margin-left: 725px;
+    position: absolute;
+    margin-top:-350px; 
+    border-color: #ea4fa2;
+    text-align: center;
+    
+    
+}
+
+.map>h3{
+    margin: 0;
+    font-size: 23px;
+    text-decoration: underline;
+}
+.map>ul{
+    list-style: none;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -32px;
+
+}
+
+.map>a{ 
+    font-size: 20px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.map>ul :hover{
+    font-style: italic;
+}
+
+.map>ul :link{
+    color: #ff55de;
+}
+
+.map>ul :visited{
+    color: red;
 }
 
 .worker{
@@ -75,7 +166,7 @@ body{
     width: 150px;
     position: absolute;
     left: 1010px;
-    bottom: 0px;
+    bottom: 70px;
     border-width: 0px; 
 }
 
@@ -167,7 +258,7 @@ p{
 .kiryu{
     width: 100px;
     margin-top: -120px;
-    margin-left: 1200px;
+    margin-left: 1150px;
     position: absolute;
 }
 
@@ -209,8 +300,8 @@ p{
     position: absolute;
     width: 160px;
     height: 140px;
-    margin-left: 770px;
-    margin-top: 190px;
+    margin-left: 820px;
+    margin-top: 0px;
     border-color: #f2a2b7;
     background-color: #fdf6f6;
     text-align: center;
@@ -308,7 +399,7 @@ h4{
 .mythicalland{
     position: absolute;
     z-index: 1;
-    margin-left: 1200px;
+    margin-left: 1100px;
     width: 150px;
     margin-top: -50px;
     
@@ -326,7 +417,7 @@ h4{
 .scroll{
     position: absolute;
     border-style: none;
-    width: 320px;
+    width: 750px;
     margin-left: 0px;
     margin-top: 240px;
     height: 65px;
@@ -362,6 +453,11 @@ h4{
     margin-left: 740px;
     margin-top: 0px;
     
+}
+
+.mcbook{
+    position: absolute;
+    margin-left: 310px;
 }
 
 

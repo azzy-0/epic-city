@@ -68,3 +68,18 @@ span{
     margin-left: 660px;
     margin-bottom: 20px;
 }
+
+.ducks{
+    position: absolute;
+    border-color: white;
+    margin-left: 1000px;
+    width: 200px;
+    height: 500px;
+    margin-top: -1300px;
+}
+
+.blog{
+    position: absolute;
+    margin-top: -180px;
+    margin-left: -155px;
+}
